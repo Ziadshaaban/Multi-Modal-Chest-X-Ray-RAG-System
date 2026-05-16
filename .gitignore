@@ -1,0 +1,72 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment — never commit secrets
+.env
+.env.local
+
+# Python cache
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Dataset files (large — download via Kaggle)
+data/raw/
+data/
+data.zip
+*.csv
+*.pkl
+*.joblib
+
+# Streamlit
+.streamlit/
+streamlit_logs/
+
+# Model weights and indexes (large — regenerate via notebooks)
+*.pth
+*.safetensors
+*.bin
+model_cache/
+cache/
+results/
+
+# Generated/intermediate files
+generated_reports.csv
+embeddings/
+indexes/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
